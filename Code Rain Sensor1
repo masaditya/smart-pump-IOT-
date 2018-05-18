@@ -22,10 +22,3 @@ while True:
         # insert your other code or functions here
         # e.g. tweet, SMS, email, take a photo etc.
     sleep(1)
-
-#Raindrop sensing board
-#Control board
-#5 jumper wires with F-F DuPont connectors
-#10 jumper wires with M-F DuPont connectors
-#Buzzer (active piezo)
-#Mini breadboard

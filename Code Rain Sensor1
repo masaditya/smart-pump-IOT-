@@ -1,12 +1,12 @@
 	
-# raindrop sensor DO connected to GPIO18
-# HIGH = no rain, LOW = rain detected
-# Buzzer on GPIO13
+
+
+
 from time import sleep
 from gpiozero import Buzzer, InputDevice
  
 buzz    = Buzzer(13)
-no_rain = InputDevice(18)
+noRain = InputDevice(18)
  
 def buzz_now(iterations):
     for x in range(iterations):

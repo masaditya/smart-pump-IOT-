@@ -18,7 +18,5 @@ def buzz_now(iterations):
 while True:
     if not no_rain.is_active:
         print("It's raining - get the washing in!")
-        buzz_now(5)
-        # insert your other code or functions here
-        # e.g. tweet, SMS, email, take a photo etc.
-    sleep(1)
+        buzz_now(5)   
+   sleep(1)
